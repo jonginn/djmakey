@@ -5,7 +5,7 @@
   <title>DJ MAKEY MAKEY</title>
   <?php
   $dir_handle = './sound';
-  $sounds = array_diff(scandir($dir_handle), array('.', '..', 'index.php', '.DS_Store', 'dj'));
+  $sounds = array_diff(scandir($dir_handle), array('.', '..', 'index.php', '.DS_Store', 'dj', '.gitignore'));
   ?>
   <script type="text/javascript" src="js/jquery.min.js"></script>
 </head>

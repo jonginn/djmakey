@@ -45,7 +45,7 @@ jQuery(document).ready(function($) {
       currentSoundDeck--;
 
       if (currentSoundDeck < 0){
-        currentSoundDeck = soundsLength;
+        currentSoundDeck = soundsLength - 1;
       }
     }
 
@@ -55,6 +55,7 @@ jQuery(document).ready(function($) {
   function playSound(keyPress, currentSoundDeck){
     if(keyPress === keyW || keyPress === keyA || keyPress === keyS || keyPress === keyD){
       sounds[currentSoundDeck][keyPress]['sound'].loop = sounds[currentSoundDeck][keyPress]['loop'];
+      sounds[currentSoundDeck][keyPress]['sound'].volume = 1;
       sounds[currentSoundDeck][keyPress]['sound'].play();
     }
   }
@@ -63,6 +64,7 @@ jQuery(document).ready(function($) {
     $.each($('audio'), function () {
         this.loop = false;
         // this.stop();
+        this.volume = 0;
         this.currentTime = 0;
     });
   }
