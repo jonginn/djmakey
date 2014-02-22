@@ -12,6 +12,7 @@
 <body>
 
   <p class="keyCode"></p>
+  <p class="noise"></p>
 
 
   <?php

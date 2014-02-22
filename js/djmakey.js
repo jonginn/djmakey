@@ -10,9 +10,29 @@ var sounds = [
       "sound": fadeinsound,
       "loop": false
     },
-    "83": {
+    "65": {
       "name": 'Voice',
       "sound": voicesound,
+      "loop": false
+    },
+    "83": {
+      "name": 'clap',
+      "sound": clapsound,
+      "loop": false
+    },
+    "68": {
+      "name": 'Kick',
+      "sound": kicksound,
+      "loop": false
+    },
+    "70": {
+      "name": 'invasion',
+      "sound": invasionsound,
+      "loop": false
+    },
+    "71": {
+      "name": 'melodic',
+      "sound": melodicsound,
       "loop": false
     }
   },
@@ -53,10 +73,11 @@ jQuery(document).ready(function($) {
   }
 
   function playSound(keyPress, currentSoundDeck){
-    if(keyPress === keyW || keyPress === keyA || keyPress === keyS || keyPress === keyD){
+    if(keyPress === keyW || keyPress === keyA || keyPress === keyS || keyPress === keyD || keyPress === keyF || keyPress === keyG){
       sounds[currentSoundDeck][keyPress]['sound'].loop = sounds[currentSoundDeck][keyPress]['loop'];
       sounds[currentSoundDeck][keyPress]['sound'].volume = 1;
       sounds[currentSoundDeck][keyPress]['sound'].play();
+      $(".noise").text("Name: " + sounds[currentSoundDeck][keyPress]['name']);
     }
   }
 
