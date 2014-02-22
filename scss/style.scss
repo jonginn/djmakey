@@ -1,0 +1,39 @@
+@import "reset";
+@import "skeleton";
+
+body{
+  font-family:'Archivo Black', Helvetica, Verdana, sans-serif;
+  color:white;
+  background-image:url('../img/bg.jpg');
+  background-size:cover;
+}
+
+h1{
+  text-align: center;
+  font-size:50px;
+  font-weight: normal;
+  line-height:38px;
+}
+
+.box{
+  margin-top:40px;
+  padding:20px 10px;
+  text-align: center;
+  background:rgba(black, 0.8);
+}
+
+h2{
+  font-size:26px;
+}
+
+.box span{
+  font-size:20px;
+}
+
+span.deck-num{
+  font-size:60px;
+}
+
+span.sound-item{
+  font-size:40px;
+}
