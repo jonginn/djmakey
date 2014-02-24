@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DJ MAKEY MAKEY</title>
+  <link href='http://fonts.googleapis.com/css?family=Archivo+Black' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body>
+
+  <div class="note">HOOK UP YOUR MAKEY MAKEY. <a href="http://jonginn.com/dj">LEARN HOW THIS WAS MADE</a>.</div>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="columns eight offset-by-four first">
+        <div class="box">
+          <h1>DJ IN A BOX</h1>
+        </div>
+        <div class="box smaller">
+          <p><strong>Sounds:</strong> W, A, S, D, G, F</p>
+          <p><strong>Change Deck:</strong> Up, Down</p>
+          <p><strong>Stop all sound</strong> Space</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="columns four offset-by-four first">
+        <div class="box">
+          <h2>DECK</h2>
+          <span class="deck-num">1</span>
+        </div>
+      </div>
+
+      <div class="columns four">
+        <div class="box">
+          <h2>SOUND</h2>
+          <span class="sound-item"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <audio id="bass_loop-noise">
+    <source src="sound/bass_loop.mp3" type='audio/mpeg; codecs="mp3"'></source>
+  </audio>
+  <audio id="bass_loop_2-noise">
+    <source src="sound/bass_loop_2.mp3" type='audio/mpeg; codecs="mp3"'></source>
+  </audio>
+  <audio id="clap-noise">
+    <source src="sound/clap.mp3" type='audio/mpeg; codecs="mp3"'></source>
+  </audio>
+  <audio id="fadein-noise">
+    <source src="sound/fadein.mp3" type='audio/mpeg; codecs="mp3"'></source>
+  </audio>
+  <audio id="invasion-noise">
+    <source src="sound/invasion.mp3" type='audio/mpeg; codecs="mp3"'></source>
+  </audio>
+  <audio id="kick-noise">
+    <source src="sound/kick.mp3" type='audio/mpeg; codecs="mp3"'></source>
+  </audio>
+  <audio id="melodic-noise">
+    <source src="sound/melodic.mp3" type='audio/mpeg; codecs="mp3"'></source>
+  </audio>
+  <audio id="percussion-noise">
+    <source src="sound/percussion.mp3" type='audio/mpeg; codecs="mp3"'></source>
+  </audio>
+  <audio id="snares-noise">
+    <source src="sound/snares.mp3" type='audio/mpeg; codecs="mp3"'></source>
+  </audio>
+  <audio id="success-noise">
+    <source src="sound/success.mp3" type='audio/mpeg; codecs="mp3"'></source>
+  </audio>
+  <audio id="techno_1-noise">
+    <source src="sound/techno_1.mp3" type='audio/mpeg; codecs="mp3"'></source>
+  </audio>
+  <audio id="techno_2-noise">
+    <source src="sound/techno_2.mp3" type='audio/mpeg; codecs="mp3"'></source>
+  </audio>
+  <audio id="voice-noise">
+    <source src="sound/voice.mp3" type='audio/mpeg; codecs="mp3"'></source>
+  </audio>
+
+  <script type="text/javascript">
+  var bass_loopsound = document.getElementById('bass_loop-noise');
+  var bass_loop_2sound = document.getElementById('bass_loop_2-noise');
+  var clapsound = document.getElementById('clap-noise');
+  var fadeinsound = document.getElementById('fadein-noise');
+  var invasionsound = document.getElementById('invasion-noise');
+  var kicksound = document.getElementById('kick-noise');
+  var melodicsound = document.getElementById('melodic-noise');
+  var percussionsound = document.getElementById('percussion-noise');
+  var snaressound = document.getElementById('snares-noise');
+  var successsound = document.getElementById('success-noise');
+  var techno_1sound = document.getElementById('techno_1-noise');
+  var techno_2sound = document.getElementById('techno_2-noise');
+  var voicesound = document.getElementById('voice-noise');
+  </script>
+  <script type="text/javascript" src="js/djmakey.js"></script>
+</body>
+</html>
