@@ -13,6 +13,8 @@
 </head>
 <body>
 
+  <div class="note">HOOK UP YOUR MAKEY MAKEY. <a href="http://jonginn.com/dj">LEARN HOW THIS WAS MADE</a>.</div>
+
 
   <div class="container">
     <div class="row">
