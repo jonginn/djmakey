@@ -16,7 +16,7 @@ var sounds = [
     "loop": false
   },
   "83": {
-    "name": 'clap',
+    "name": 'Clap',
     "sound": clapsound,
     "loop": false
   },
@@ -26,12 +26,12 @@ var sounds = [
     "loop": false
   },
   "70": {
-    "name": 'invasion',
+    "name": 'Invasion',
     "sound": invasionsound,
     "loop": false
   },
   "71": {
-    "name": 'melodic',
+    "name": 'Melodic',
     "sound": melodicsound,
     "loop": false
   }
@@ -58,12 +58,12 @@ var sounds = [
     "loop": false
   },
   "70": {
-    "name": 'techo 1',
+    "name": 'Techno 1',
     "sound": techno_1sound,
     "loop": false
   },
   "71": {
-    "name": 'techno 2',
+    "name": 'Techno 2',
     "sound": techno_2sound,
     "loop": false
   }
